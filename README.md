@@ -1,6 +1,6 @@
 # AI-Audio-Recognition
 
 ### Load and save Audio data 
-### Data augenmentation
+### Data augmentation
 ### Feature Extraction
 ### Training Model
