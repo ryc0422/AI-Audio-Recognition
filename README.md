@@ -13,7 +13,7 @@
 ##### GoogleNet
 
 
-### Problems and techniques
+### Problems and tips
 1. 切train, test set時考慮分類頻率、shuffle、用pickle存起來
 2. 資料的維度問題
 3. 寫Dataset的class
