@@ -26,6 +26,11 @@
 4. 用picke存model時、可用model.state_dict()存參數
 5. 存model記得創資料夾and改檔名
 
+
+#### 訓練
+1. 嘗試不同optimizor:adam, SGD, adabound
+2. 檢查test上不同類別的表現、對較差的增加權重、擴增其資料
+
 #### 環境
 1. device 為cuda or cpu
 2. mac資料夾中會出現'.DS_Store'檔案
