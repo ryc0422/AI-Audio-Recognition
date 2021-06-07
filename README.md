@@ -1,19 +1,21 @@
 # AI-Audio-Recognition
 
-### Load and save Audio data 
+### 1.Load and save Audio data 
 ##### librosa
 
-### Data augmentation
+### 2.Data augmentation
 
-### Feature Extraction
+### 3.Feature Extraction
 ##### mfcc, spectral_center, chroma, spectral_contrast
+參考這篇：https://www.gushiciku.cn/pl/2Hdj/zh-tw
 
-### Training Model
+
+### 4,Training Model
 ##### Simple CNN
 ##### GoogleNet
 
 
-### Problems and tips
+### 5.Problems and tips
 #### 資料處理
 1. 切train, test set時考慮分類頻率、shuffle、用pickle存起來
 2. 資料的維度問題
@@ -25,6 +27,7 @@
 3. output答案善用torch.argmax和F.softmax(x, dim=1)
 4. 用picke存model時、可用model.state_dict()存參數
 5. 存model記得創資料夾and改檔名
+6. 要存test結果好的、不是train結果好的！！！！
 
 
 #### 訓練
